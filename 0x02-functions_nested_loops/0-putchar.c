@@ -1,33 +1,32 @@
-for file main.h
+#include "main.h"
 
-#ifndef MAIN_H
+/**
+** main - Entry point
+** Return: Always 0 (Success)
+**/
 
-#define MAIN_H
+int main(void)
 
-void print_alphabet(void);
+{
+	
+	_putchar('_');
+	
+	_putchar('p');
 
-void print_alphabet_x10(void);
+	_putchar('u');
 
-int _islower(int c);
+	_putchar('t');
 
-int _isalpha(int c);
+	_putchar('c');
 
-int print_sign(int n);
+	_putchar('h');
 
-int _abs(int);
+	_putchar('a');
 
-int print_last_digit(int);
+	_putchar('r');
 
-void jack_bauer(void);
+	_putchar('\n');
 
-void times_table(void);
+	return (0);
 
-int add(int, int);
-
-void print_to_98(int n);
-
-int _putchar(char c);
-
-#endif
-
-for file _putcha
+}
