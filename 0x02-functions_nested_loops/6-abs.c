@@ -23,7 +23,7 @@ int_abs(int n)
 
 	{
 
-	return (-n);
+		return (-n);
 
 	}
 
@@ -31,7 +31,7 @@ int_abs(int n)
 
 	{
 
-	return (n);
+		return (n);
 
 	}
 
